@@ -1,0 +1,402 @@
+    .fl {
+        float: left;
+    }
+    .fr{float: right;}
+    .mgr50 {
+        margin-right: .5rem;
+    }
+    .input_title{
+        width: 2rem;
+        color: #666;
+        text-align: right;
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: .1rem;
+        line-height: .5rem
+    }
+    .line_con {
+        display: inline-block;
+        height: .5rem;
+        line-height: .5rem;
+    }
+    .pagination{
+        padding: .2rem 0 .2rem 0;
+        text-align: right;
+    }
+    .color_blue{
+        color: #4877dd;
+        cursor: pointer;
+    }
+    .delete {
+        background: url('../../images/delete.png') no-repeat .3rem .22rem;
+        background-size: .20rem .22rem;
+        padding-left: .6rem;
+        color: #4877dd;
+        font-size: 12px;
+        height: .66rem;
+        line-height: .66rem;
+        width: 1rem;
+    }
+    .delete:hover{
+        cursor: pointer;
+    }
+    .button{
+        width: 3rem;
+        height: .8rem;
+        background-color: rgb(72,119,221);
+        color: #fff;
+        line-height: .8rem;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+    }
+/* 系统设置 */
+    #systemSetup {
+        padding-left: 15%;
+        font-size: .24rem;
+    }
+
+    #systemSetup .input_con {
+        margin-bottom: 0.3rem;
+        vertical-align: top;
+        position: relative;
+    }
+    .refundRule .title {
+        display: inline-block;
+        padding: .1rem;
+    }
+
+    .refundRule_input {
+        display: inline-block;
+        width: 2.2rem;
+    }
+
+    .refundRule {
+        text-align: left;
+        padding: .2rem .27rem;
+        border: 1px solid #dcdfe6;
+        border-radius: 4px;
+        margin: .25rem 1.7rem 0 0;
+    }
+    #systemSetup .button{
+        width: 3rem;
+        height: .9rem;
+        line-height: .9rem;
+        font-size: .3rem;
+        color: #fff;
+        border-radius: 8px;
+        text-align: center;
+        background: rgb(72, 119, 221);
+        margin:.5rem 0 .5rem calc(40% - 1.5rem);
+        cursor: pointer; 
+    }
+
+    /* 日志查询 */
+    #logInquire .search_con {
+        padding-right: 2%
+    }
+    #logInquire .input_title {
+        color: #666;
+        text-align: right;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .input_operator {
+        width: 2.2rem;
+        display: inline-block;
+    }
+    #logInquire .search_btn {
+        float: right;
+        margin-bottom: .38rem;
+    }
+
+    /* 新增站点 */
+        .position_mid{
+        transform: translateY(-50%);
+        margin-top: -.25rem;
+    }
+    #addNewStation{
+        padding-left: 16%;
+        font-size: .24rem;
+    }
+    #addNewStation>div {
+        margin-bottom: 0.25rem;
+        vertical-align: top;
+        position: relative;
+        line-height: .5rem;
+    }
+    #addNewStation .input_small {
+        width: 1.8rem;
+        height: .5rem;
+    }
+     .tips{
+        display: inline-block;
+        /* width: 5rem; */
+        color: #666;
+        font-size: .15rem;
+        vertical-align: middle;
+    }
+     .tips_danger{
+        color: #ff0000;
+        width: auto;
+        vertical-align: top;
+    }
+    #addNewStation .textarea_remarks{
+        width: 6rem;
+    }
+    #addNewStation .btn_con{
+        position: relative;
+        width: 100%;
+        height: .9rem;
+        margin-top: 1rem;
+        margin-left: 15%;
+    }
+    #addNewStation .button{
+        height: .9rem;
+        position: absolute;
+        line-height: .9rem;
+        font-size: .3rem;
+        color: #fff;
+        border-radius: 8px;
+        top: 0;
+        text-align: center;
+        cursor: pointer;
+        padding: 0 .6rem;
+        width: auto;
+    }
+    #addNewStation .submit{
+        background: rgb(72, 119, 221);
+        left: 0;
+    }
+    #addNewStation .submitNext{
+        background: rgb(72, 119, 221);
+        left: 4rem;
+    }
+    #addNewStation .upload_con{
+        width: 5rem;
+        display: inline-block;   
+    }
+    #addNewStation .select_con{
+        display: inline-block;
+    }
+    .select_con .address_list{
+        border: 1px solid #dcdfe6;
+        border-radius: 4px;
+        padding: 2px 2px;
+        text-align: center;
+        width: 1.8rem;
+        height: .5rem;
+    }
+    #addNewStation .map_con{
+        height: 80%;
+        width: 80%;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        z-index: 9999;
+    }
+    .input_geolocation{
+        width: 3.5rem;
+    }
+    
+    /* 站点管理 */
+    #stationManage .input_title{
+        width: 1.5rem;
+    }
+    #stationManage .line_con{
+        width: 1.8rem;
+    }
+    #stationManage .btn_small{
+        margin-right: .2rem;
+        background: rgb(72,119,221)
+    }
+    .search_con{
+        padding-bottom: .2rem;
+        border-bottom: 1px solid #dcdfe6;
+    }
+    /* 账号管理 */
+    .table_con{
+        width: 60%;
+        margin: 0 auto;
+    }
+    /* 登录 */
+    #login{
+        width: 100%;
+        height: 100%;
+        background: url('../../images/bg.png') no-repeat;
+        background-size: 100% 100%;
+    }
+    .login_con{
+        width: 50%;
+        height: 7rem;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    .login_title{
+        height: 1rem;
+        line-height: 1rem;
+        font-size: .38rem;
+        background-color: rgb(85,112,209);
+        color: #fff;
+        padding-left: .9rem;
+        border-radius: 6px 6px 0 0;
+    }
+    .login_logo{
+        border-right: 1px solid #fff;
+        padding-right: 10px;
+    }
+    .login_main{
+        background: rgb(232, 232, 232);
+        padding-bottom: .5rem;
+    }
+    .login_main .welcome{
+        height: 1.3rem;
+        line-height: 1.3rem;
+        text-align: center;
+        font-size: .4rem;
+    }
+    .login_main .input_con:nth-child(3){
+        border-top: 1px solid rgb(153,153,153);
+        border-bottom: 1px solid rgb(153,153,153);
+    }
+    #login .input_con{
+        width: 48%;
+        margin: 0 auto;
+        position: relative;
+    }
+    #login input{
+        height: .5rem;
+        margin:  .2rem 0;
+        margin-left: 30px;
+        background: rgb(232, 232, 232);
+        display: inline-block;
+        width: 90%
+    }
+    #login #verifiCode{
+        width: 38%;
+    }
+    #login input::-webkit-input-placeholder{
+        font-size: .26rem;
+        color: #999;
+    }
+    #login .button{
+        margin:.5rem auto 0 auto;
+        cursor: pointer;
+    }
+    .input_icon{
+        position: absolute;
+        top: 50%;
+        margin-top: -12.5px;
+    }
+    .verify_con{
+        display: inline-block;
+        height: .97rem;
+        width: 45%;
+        line-height: .97rem;
+        font-size: .16rem;
+        color: #666;
+        position: relative;
+    }
+    .verify_con .verify_img{
+        width: 50%;
+        height: .7rem;
+        position: absolute;
+        top: 50%;
+        margin-top: -.35rem;
+    }
+
+    /* 商户审核 */
+.input_phoneNum{
+    width: 330px;
+}
+.search_con .clearfix{
+    margin-bottom: .2rem;
+}
+.select_check_status{
+    width: 330px;
+}
+#stationExamine .date_picker{
+    width: 330px;
+}
+#stationExamine .btn_small{
+    margin-right: .5rem;
+    background: rgb(72,119,221)
+}
+#stationExamine .oparate_con{
+    padding-left: .2rem;
+}
+.oparate_con .fl{
+    width: .7rem;
+    height: .4rem;
+    line-height: .4rem;
+    padding: 0 0 0 .6rem;
+    margin: 0.2rem 0 ;
+    color: rgb(72, 119, 221);
+}
+.oparate_con .fl:hover{
+    cursor: pointer;
+}
+.btn_refuse{
+    background: url('../../images/error_icon.png') no-repeat .2rem .05rem;
+    background-size: .3rem .3rem;
+    border-right: 1px solid rgb(72,119,221);
+}
+.btn_pass{
+    background: url('../../images/pass_icon.png') no-repeat .2rem .05rem;
+    background-size: .3rem .3rem;
+}
+.btn_reset{
+    width: 2.5rem;
+    height: .4rem;
+    line-height: .4rem;
+    padding: 0 0 0 .3rem;
+    margin: 0.2rem 0 ;
+    color: rgb(72, 119, 221);
+    cursor: pointer;
+}
+.btn_reset i{
+    font-size: inherit;
+    line-height: .4rem;
+}
+/* 修改密码 */
+.password_con{
+    margin: 5% auto 0 auto;
+    width: 6.3rem;
+}
+.password_con>div{
+    margin: 15px 0;
+}
+.pwd_input{
+    width: 3rem;
+    display: inline-block;
+}
+.pwd_button{
+    width: 3rem;
+    height: .8rem;
+    display: block;
+    margin: 1rem auto;
+    background:rgb(72,119,221);
+    border-color: rgb(72,119,221);
+}
+/* 新增账号 */
+#addNewAccount .input_title{
+    width: 3rem;
+}
+.input_large{
+    width: 6rem;
+}
+.input_line{
+    width: 12.5rem;
+    margin: .5rem auto;
+}
+#addNewAccount .button{
+    margin:1rem auto;
+}
+/* 写消息 */
+#sendMessage .line{
+    margin:.4rem auto;
+    width: 8.5rem;
+}
